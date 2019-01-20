@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AOS test</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/lib/aos/aos.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/menu.min.css">
+</head>
+
+<body>
+    <div class="ui secondary top fixed pointing menu" id="navbar">
+        <a class="active item nav_item" href="#landing" id='about_us_home'>
+            Home
+        </a>
+        <a class="item nav_item" href="#play" id='play_nav'>
+            Play
+        </a>
+        <a class="item nav_item" href="#leaderboard" id='leaderboard_nav'>
+            Leader Board
+        </a>
+        <a class="item nav_item" href="#about_us" id='about_us_nav'>
+            The Team
+        </a>
+    </div>
+
+    <section id='landing'>
+
+        <h1 data-aos="zoom-in-up" id="landing_head">🏹Conquer the Algorithm Valley🔪</h1>
+        <img src="/homepage design.png" style="width:1500px;">
+        <a class='shiny-btn' href="#play" id="landing_scroll">
+            <h1 id='play_span'>Start<span>🎮</span></h1>
+        </a>
+
+    </section>
+
+    <section id='play'>
+        <div id="play_left">
+            <h1 style="margin-bottom: 5px;">How to Play:</h1>
+            1. Meet new chibis and gain XP 🌟<br>
+
+            2. Answer questions to gain even more XP 🌟<br>
+
+            3. Anwer wrong and you'll loose HP💥<br>
+
+            4. Answer correct and gain a lot of XP 🌟<br>
+
+            5. You have 3 lives 💖💖💖<br>
+
+            6. Don't Die Plssss 😐<br>
+
+            Ready? Conquer the valley🏆<br>
+            <div>
+                <h1 style="margin-top: 100px;">Pro? <a href="#play" class='shiny-btn' id='login'>Login</a></h1>
+            </div>
+
+        </div>
+        <div id="play_right">
+            <h1 style="margin-bottom: 5px;">New? Choose your Avatar:</h1>
+            <center>
+                <span id="avatar_skull" class='avatar'>💀</span>
+                <span id="avatar_robot" class='avatar'>🤖</span>
+                <span id="avatar_cat" class='avatar'>😺</span><br>
+                <span id="avatar_ninja" class='avatar'>🐱‍👤</span>
+                <span id="avatar_wolf" class='avatar'>🐺</span>
+                <span id="avatar_fox" class='avatar'>🦊</span><br>
+                <span id="avatar_tiger" class='avatar'>🐯</span>
+                <span id="avatar_lion" class='avatar'>🦁</span>
+                <span id="avatar_alien" class='avatar'>👾</span>
+            </center>
+            <div>
+                <h1 style="margin-top: 87px;"><a href="#leaderboard" class='shiny-btn' id='play_hall_of_fame'>Hall of
+                        Fame</a></h1>
+            </div>
+        </div>
+    </section>
+
+    <section id='leaderboard'>
+        <div>
+            <h1 style="text-align: center">Hall of Fame 🏆</h1>
+            <table>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th>XP</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>💀 Paul Pogba</td>
+                    <td>780</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>🤖 Marcus Rashford</td>
+                    <td>765</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>🐱‍👤 Ole Fergussion</td>
+                    <td>740</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>🦁 Juan Mata</td>
+                    <td>738</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>🐺 Wayne Rooney</td>
+                    <td>720</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>🦁 David</td>
+                    <td>718</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>🦁 Chris Smalling</td>
+                    <td>700</td>
+                </tr>
+                <!-- <tr>
+                    <td>8</td>
+                    <td>🦊 Van Persie</td>
+                    <td>695</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>😺 Ryan Giggs</td>
+                    <td>675</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>👾 Lukaku</td>
+                    <td>667</td>
+                </tr> -->
+            </table>
+            <h1 style="text-align: center"> <a href="#about_us" id='leaderboard_about_us' class='shiny-btn'>The Team</a></h1>
+        </div>
+    </section>
+
+    <section id='about_us'>
+
+        <div id="about_us_child_left" data-aos-duration="1000" data-aos="fade-right">
+            <div id="profile_pic">🐺</div>
+            <div id="profile_name">Sahil Bondre</div>
+            <div id="profile_disc">Webdev💻 and Design🌈<br>sahilbondre@gmail.com</div>
+
+        </div>
+        <div id="about_us_child_center">
+            <div id="we_love">We love to<br> learn, code and<br>create.</div>
+        </div>
+        <div id="about_us_child_right" data-aos-duration="1000" data-aos="fade-left">
+            <div id="profile_pic">🐱‍👤</div>
+            <div id="profile_name">Aemie Jariwala</div>
+            <div id="profile_disc">Algorithms🚦 and Design🌈<br>aemie.j@gmail.com</div>
+        </div>
+    </section>
+
+    <All_Scripts>
+        <script src="lib/jquery/jquery-3.3.1.min.js"></script>
+        <script src="/assets/config.js"></script>
+        <script src="/lib/ssm/smooth-scroll.min.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 500
+            });
+        </script>
+        <script src="/lib/aos/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </All_Scripts>
+
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+/* Common Code====================================================*/
+html {
+    overflow: hidden;
+    overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+#navbar {
+    background-color: #FF9F1C;
+    border: 0;
+    margin: 0;
+    font-family: 'Quicksand', cursive;
+    font-size: 1.2rem;
+}
+
+body {
+
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+
+.shiny-btn {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 40px 90px;
+    background-color: #7681b9;
+    transition: transform 250ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 250ms linear;
+    background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"	 width="1296px" height="768px" viewBox="0 0 1296 768" enable-background="new 0 0 1296 768" xml:space="preserve"><g><polygon fill="#8694D1" points="766.6,1.2 -0.2,768 200.7,768 967.5,1.2 	"/></g><g><polygon fill="#8694D1" points="1094.8,1.2 328,768 528.9,768 1295.7,1.2 	"/></g></svg>');
+    background-size: contain;
+    background-position: -200px center;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.shiny-btn:hover {
+    transform: scale(1.2);
+    background-position: -60px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.23);
+}
+
+.shiny-btn:active {
+    transform: scale(1);
+    background-position: 500px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+
+
+/*Landing Page Code=====================================================*/
+#landing {
+    background-color: #FF9F1C;
+    height: 100%;
+    margin: 0%;
+    border: 0ch;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Quicksand', cursive;
+}
+
+#play_span {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Quicksand', cursive;
+    margin: 5px 10px;
+}
+
+#landing_scroll {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Quicksand', cursive;
+    border: 5px solid black;
+    padding: 2px 15px;
+    text-decoration: none;
+    color: black
+}
+
+
+/*About Us Page Code======================================================*/
+#about_us {
+    background-color: #011627;
+    height: 100%;
+    margin: 0%;
+    border: 0ch;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#about_us_child_left {
+    flex-grow: 1;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: right;
+    /* flex-grow: 1; */
+}
+
+#about_us_child_right {
+    flex-grow: 1;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: left;
+    /* flex-grow: 1; */
+}
+
+#about_us_child_center {
+    flex-grow: 1;
+
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+    /* flex-grow: 1; */
+}
+
+#profile_pic {
+    font-size: 104px;
+}
+
+#profile_name {
+    font-size: 32px;
+}
+
+#we_love {
+    font-size: 32px;
+}
+
+#profile_disc {
+    font-size: 20px;
+}
+
+/*Play Page Code==============================================================*/
+#play {
+    background-color: #E71D36;
+    height: 100%;
+    margin: 0%;
+    border: 0ch;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+
+#login {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Quicksand', cursive;
+    border: 5px solid black;
+    padding: 2px 15px;
+    text-decoration: none;
+    color: black
+}
+
+#play_hall_of_fame {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Quicksand', cursive;
+    border: 5px solid black;
+    padding: 2px 15px;
+    text-decoration: none;
+    color: black
+}
+
+.avatar {
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+/* Leaderboard Page Code========================================================*/
+#leaderboard {
+    background-color: #2EC4B6;
+    height: 100%;
+    margin: 0%;
+    border: 0ch;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+
+#leaderboard_about_us{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Quicksand', cursive;
+    border: 5px solid black;
+    padding: 2px 15px;
+    text-decoration: none;
+    color: black
+}
